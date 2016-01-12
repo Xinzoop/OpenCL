@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc clEx.c -L /opt/AMDAPPSDK-2.9-1/lib/x86_64 -lOpenCL -I /opt/AMDAPPSDK-2.9-1/include  -o clEx
